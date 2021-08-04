@@ -1,8 +1,8 @@
-<template>
-    <div>
-        <h1>{{ message }}</h1>
-        <p><input v-model="message"></p>
-    </div>
+<template lang="pug">
+    div.hello
+        h1 {{message}}
+        p
+            input(v-model="message")
 </template>
 
 <script>
